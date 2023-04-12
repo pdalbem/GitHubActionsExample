@@ -41,6 +41,6 @@ jobs:
       - name: download apk
         uses: actions/download-artifact@v3
         with:
-          name: static-site
+          name: apk
       - name: Test download
         run: ls -R
