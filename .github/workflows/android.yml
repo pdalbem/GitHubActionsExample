@@ -51,5 +51,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
+          replacesArtifacts: true
+          allowUpdates: true
           draft: false
           prerelease: false
